@@ -1,0 +1,9 @@
+# release.yml
+
+name: release
+on:
+  workflow_dispatch:
+jobs:
+  build-main:
+    uses: dangernoodle-io/.github/.github/workflows/maven-build.yml@jae/initial
+    secrets: inherit

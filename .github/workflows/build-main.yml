@@ -1,0 +1,11 @@
+# build-main.yml
+
+name: build-main
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-main:
+    uses: dangernoodle-io/.github/.github/workflows/maven-build.yml@main
+    secrets: inherit
