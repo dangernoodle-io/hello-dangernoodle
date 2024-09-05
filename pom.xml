@@ -19,8 +19,8 @@
   <description>dummy project for pom / release testing</description>
 
   <modules>
-    <module>hello-dangernoodle-moduleA</module>
-    <module>hello-dangernoodle-moduleB</module>
+    <module>hello-dangernoodle-module-a</module>
+    <module>hello-dangernoodle-module-b</module>
     <module>hello-dangernoodle-site</module>
   </modules>
 
