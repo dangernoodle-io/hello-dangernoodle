@@ -1,9 +1,14 @@
-# maven-release.yml
-
 name: maven-release
+
 on:
   workflow_dispatch:
+
 jobs:
   build-main:
     uses: dangernoodle-io/.github/.github/workflows/maven-release.yml@jae/initial
+  release-main:
     secrets: inherit
+    uses: dangernoodle-io/.github/.github/workflows/maven.yml@main
+    with:
+      maven-goals: release:prepare release:perform
+      release: true

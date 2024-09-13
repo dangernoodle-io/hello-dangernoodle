@@ -6,7 +6,7 @@
   <parent>
     <groupId>io.dangernoodle</groupId>
     <artifactId>dangernoodle-io-build-pom</artifactId>
-    <version>14</version>
+    <version>14.1.0-SNAPSHOT</version>
     <relativePath />
   </parent>
 
@@ -27,6 +27,8 @@
   <properties>
     <javadoc.project.artifactId>hello-dangernoodle</javadoc.project.artifactId>
     <javadoc.site.scm>scm:git:git@github.com:dangernoodle-io/hello-dangernoodle.git</javadoc.site.scm>
+
+    <junit.version>5.11.0</junit.version>
   </properties>
 
   <scm>
@@ -40,5 +42,17 @@
     <system>GitHub</system>
     <url>https://github.com/dangernoodle-io/hello-dangernoodle/issues</url>
   </issueManagement>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>${junit.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
 </project>
