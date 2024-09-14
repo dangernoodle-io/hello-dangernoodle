@@ -1,4 +1,4 @@
-package io.dangernoodle.dummy;
+package io.dangernoodle.dummy.a;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
