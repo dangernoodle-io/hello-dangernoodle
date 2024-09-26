@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>hello-dangernoodle</artifactId>
-  <version>0.2.0-SNAPSHOT</version>
+  <version>0.2.0</version>
   <packaging>pom</packaging>
 
   <name>${project.artifactId}</name>
@@ -35,6 +35,7 @@
     <url>https://github.com/dangernoodle-io/hello-dangernoodle</url>
     <connection>scm:git:github.com:dangernoodle-io/hello-dangernoodle.git</connection>
     <developerConnection>scm:git:git@github.com:dangernoodle-io/hello-dangernoodle.git</developerConnection>
+    <tag>0.2.0</tag>
   </scm>
 
   <issueManagement>
