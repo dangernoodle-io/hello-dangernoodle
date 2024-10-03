@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>hello-dangernoodle</artifactId>
-  <version>0.3.0</version>
+  <version>0.3.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>${project.artifactId}</name>
@@ -46,7 +46,7 @@
     <url>https://github.com/dangernoodle-io/hello-dangernoodle</url>
     <connection>scm:git:github.com:dangernoodle-io/hello-dangernoodle.git</connection>
     <developerConnection>scm:git:git@github.com:dangernoodle-io/hello-dangernoodle.git</developerConnection>
-    <tag>0.3.0</tag>
+    <tag>master</tag>
   </scm>
 
   <issueManagement>
