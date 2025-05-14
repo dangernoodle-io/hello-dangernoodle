@@ -10,6 +10,6 @@ on:
 jobs:
   build-main:
     secrets: inherit
-    uses: dangernoodle-io/.github/.github/workflows/maven.yml@main
+    uses: dangernoodle-io/.github/.github/workflows/maven.yml@jae/coveralls-app
     with:
       maven-goals: verify
